@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Full dataset - keep private / local
+data/train/
+data/test/
+dataset_cv/
+
+# Model weights - use Git LFS if you decide to publish them
+*.pth
+*.pt
+
+# Temporary archives
+*.zip
+
+# Colab/runtime
+/content/
